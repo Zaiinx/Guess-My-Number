@@ -34,6 +34,8 @@ document.querySelector('.again').addEventListener('click', function () {
 
   displayMessage('Start guessing...');
 
+  Number((document.querySelector('.guess').value = ''));
+
   Number((document.querySelector('.check').style.display = 'flex'));
 
   document.querySelector('body').style.backgroundColor = '#222222';
