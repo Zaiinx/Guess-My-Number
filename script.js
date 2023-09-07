@@ -1,20 +1,5 @@
 'use strict';
 
-// SELECT HTML IN JAVASCRIPT
-
-// console.log(document.querySelector('.message').textContent);
-
-// displayMessage() 'Correct Number 🎉';
-
-// console.log(document.querySelector('.message').textContent);
-
-// document.querySelector('.number').textContent = 13;
-// document.querySelector('.score').textContent = 13;
-
-// document.querySelector('.guess').value;
-
-// Handling Click Events
-
 let number = Math.trunc(Math.random() * 20 + 1);
 let score = 7;
 let highScore = 0;
